@@ -1,0 +1,23 @@
+body {
+  font-size: 1em;
+}
+
+$bar-color: steelblue;
+
+.chart {
+  margin: 3em auto;
+  width: 800px;
+  div {
+    font: 10px sans-serif;
+    background-color: $bar-color;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+  }
+}
+
+.chart rect {
+ fill: $bar-color;
+ stroke: white;
+}
